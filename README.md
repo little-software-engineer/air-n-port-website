@@ -1,6 +1,6 @@
 # Air N Port
 
-Welcome to the **Airport Showcase**, a React-powered Vite website designed to highlight famous airports and iconic airport looks. This project is a fun and interactive frontend that combines sleek design and engaging content to deliver an entertaining user experience.
+Welcome to the **Air-N-Port**, a React-powered Vite website designed to highlight famous airports and iconic airport looks. This project is a fun and interactive frontend that combines sleek design and engaging content to deliver an entertaining user experience.
 
 ---
 
