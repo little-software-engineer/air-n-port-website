@@ -1,0 +1,120 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Zajednički navbar za sve stranice */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.nav-logo {
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li {
+    padding: 5px 10px;
+}
+
+.nav-menu li button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.nav-menu li button:hover {
+    text-decoration: underline;
+}
+
+/* Stilovi za slideshow */
+.slideshow-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 50px auto;
+    position: relative;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.slide img {
+    max-width: 100%;
+    border-radius: 8px;
+    max-height: 400px;
+}
+
+.slide-text {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #333;
+}
+
+/* Dugmad za promenu slajda */
+button.prev,
+button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+button.prev {
+    left: -30px;
+}
+
+button.next {
+    right: -30px;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Dodato za bolji responsive dizajn */
+@media (max-width: 768px) {
+    .slideshow-container {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .slide img {
+        max-height: 250px;
+    }
+
+    button.prev,
+    button.next {
+        top: auto;
+        bottom: -30px;
+        transform: translateY(0);
+        margin: 5px;
+        position: static;
+    }
+}

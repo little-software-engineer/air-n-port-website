@@ -1,0 +1,103 @@
+.hero {
+    margin: 0px 120px;
+    /* Horizontal margin for centering */
+    margin-top: 270px;
+    /* Top spacing from previous element */
+}
+
+.hero-text {
+    color: white;
+    /* White text color for contrast against the background */
+    font-size: 110px;
+    /* Large font size for visual impact */
+    font-weight: 500;
+    /* Medium font weight for balance */
+    line-height: 130px;
+    /* Adequate line height for readability */
+}
+
+.hero-explore {
+    display: flex;
+    /* Flexbox for aligning text and button horizontally */
+    align-items: center;
+    /* Vertically aligns items */
+    gap: 50px;
+    /* Spacing between text and button */
+    width: fit-content;
+    /* Ensures width adapts to content */
+    margin-top: 70px;
+    /* Adds spacing from the hero text */
+    padding: 5px 8px;
+    /* Inner padding for spacing */
+    padding-left: 30px;
+    /* Additional padding for text alignment */
+    border-radius: 60px;
+    /* Rounded corners for aesthetic */
+    background-color: white;
+    /* White background for contrast */
+    cursor: pointer;
+    /* Pointer cursor to indicate interactivity */
+}
+
+.hero-explore p {
+    color: #292929;
+    /* Dark text color for readability on a white background */
+    font-size: 20px;
+    /* Moderate font size for readability */
+    font-weight: 500;
+    /* Medium weight for emphasis */
+}
+
+.hero-dot-play {
+    margin-top: 120px;
+    /* Spacing from the previous section */
+    display: flex;
+    /* Flexbox layout */
+    justify-content: space-between;
+    /* Spaces dots and play button evenly */
+}
+
+.hero-dots {
+    display: flex;
+    /* Flexbox for arranging dots horizontally */
+    align-items: center;
+    /* Vertically aligns dots */
+    gap: 23px;
+    /* Spacing between individual dots */
+    list-style: none;
+    /* Removes default bullet points */
+}
+
+.hero-dot {
+    width: 15px;
+    /* Width of each dot */
+    height: 15px;
+    /* Height of each dot */
+    background: white;
+    /* Default background color */
+    border-radius: 7.5px;
+    /* Circular shape */
+    cursor: pointer;
+    /* Pointer cursor for interactivity */
+}
+
+.hero-dot.orange {
+    background: orangered;
+    /* Highlight color for the active dot */
+}
+
+.hero-play {
+    display: flex;
+    /* Flexbox layout for alignment */
+    align-items: center;
+    /* Vertical alignment */
+    gap: 30px;
+    /* Spacing between icon and text */
+}
+
+.hero-play p {
+    color: white;
+    /* Text color for visibility */
+    font-size: 19px;
+    /* Moderate size for readability */
+}
