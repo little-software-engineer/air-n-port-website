@@ -14,6 +14,10 @@ const slides = [
     img: "/images/look3.jpg",
     text: "British minimalism. Hugh Grant and Elisabeth Hurley at LHR.",
   },
+  {
+    img: "/images/look4.jpg",
+    text: "Whitney Houston mixed and matched the decade’s eccentricities with its minimalism.",
+  },
 ];
 
 export const Explore = () => {
