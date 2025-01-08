@@ -4,6 +4,7 @@ import Navbar from "./components/navbar/Navbar";
 import Hero from "./components/hero/Hero";
 import Explore from "./components/explore/Explore";
 import Airport from "./components/airports/Airport";
+import Contact from "./components/contacts/Contact";
 
 export const App = () => {
   const [currentPage, setCurrentPage] = useState("home"); // Drži stanje trenutne "stranice"
@@ -42,7 +43,8 @@ export const App = () => {
         return <Explore />;
       case "airports":
         return <Airport />;
-
+      case "contacts":
+        return <Contact />;
       default:
         return <div>Page not found</div>;
     }

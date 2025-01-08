@@ -4,7 +4,7 @@ body {
     padding: 0;
 }
 
-/* Zajednički navbar za sve stranice */
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -44,7 +44,7 @@ body {
     text-decoration: underline;
 }
 
-/* Stilovi za slideshow */
+
 .slideshow-container {
     display: flex;
     align-items: center;
@@ -62,7 +62,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* Centriranje sadržaja (slika i tekst) */
     justify-content: center;
     width: 100%;
 
@@ -81,7 +80,6 @@ body {
     color: #333;
 }
 
-/* Dugmad za promenu slajda */
 button.prev,
 button.next {
     position: absolute;
@@ -108,7 +106,7 @@ button:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* Dodato za bolji responsive dizajn */
+
 @media (max-width: 768px) {
     .slideshow-container {
         flex-direction: column;

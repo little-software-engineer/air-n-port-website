@@ -18,7 +18,7 @@ const Navbar = ({ setCurrentPage }) => {
           <button onClick={() => setCurrentPage("airports")}>Airports</button>
         </li>
         <li className="nav-contact">
-          <button onClick={() => setCurrentPage("contact")}>Contact</button>
+          <button onClick={() => setCurrentPage("contacts")}>Contact</button>
         </li>
       </ul>
     </div>
