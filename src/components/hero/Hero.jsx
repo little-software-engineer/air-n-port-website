@@ -15,14 +15,14 @@ export const Hero = ({
         <p>{heroData.text1}</p>
         <p>{heroData.text2}</p>
       </div>
-      {/* Explore Features Section */}
+
       <div className="hero-explore">
         <p>Explore the features</p>
         <img src={arrow_btn} alt="" />
       </div>
-      {/* Hero Dots and Play Button */}
+  
       <div className="hero-dot-play">
-        {/* Dots for Navigating Between Slides */}
+      
         <ul className="hero-dots">
           <li
             onClick={() => setHeroCount(0)}
