@@ -7,7 +7,7 @@ import Airport from "./components/airports/Airport";
 import Contact from "./components/contacts/Contact";
 
 export const App = () => {
-  const [currentPage, setCurrentPage] = useState("home"); // Drži stanje trenutne "stranice"
+  const [currentPage, setCurrentPage] = useState("home"); 
 
   let heroData = [
     { text1: "Nonstop", text2: "you" },
