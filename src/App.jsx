@@ -52,7 +52,7 @@ export const App = () => {
 
   return (
     <div>
-      {/* Navbar sada koristi setCurrentPage za navigaciju */}
+      
       <Navbar setCurrentPage={setCurrentPage} />
       {renderPage()}
     </div>
