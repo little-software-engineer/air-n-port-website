@@ -6,18 +6,18 @@ Welcome to the **Air-N-Port**, a React-powered Vite website designed to highligh
 
 ## Features
 
-### 🎨 **Fun Frontend Design**
+###  **Fun Frontend Design**
 - A visually appealing and dynamic user interface.
 - Smooth navigation between sections.
 
-### ✈️ **Airport Highlights**
+###  **Airport Highlights**
 - Explore detailed showcases of world-famous airports.
 
-### 👗 **Iconic Airport Looks**
+###  **Iconic Airport Looks**
 - Discover timeless airport outfits from celebrities and style icons.
 - Interactive slideshow featuring curated images and descriptions.
 
-### 🔄 **Interactive Navigation**
+###  **Interactive Navigation**
 - Navigate effortlessly between the homepage, explore page, and more using the responsive navbar.
 - Integrated play/pause functionality and a dynamic hero slider.
 
@@ -25,7 +25,7 @@ Welcome to the **Air-N-Port**, a React-powered Vite website designed to highligh
 
 ## Tech Stack
 
-### 🛠 **Built with:**
+###  **Built with:**
 - [React](https://reactjs.org/) - A JavaScript library for building user interfaces.
 - [Vite](https://vitejs.dev/) - A fast build tool and development server.
 - [CSS Modules](https://github.com/css-modules/css-modules) - For modular and reusable styles.
@@ -79,7 +79,7 @@ Special thanks to:
 - Airplane video link: https://www.youtube.com/watch?v=g77VMRK8HBg&pp=ygUbbm8gY29weXJpZ2h0IGFpcnBsYW5lIHZpZGVv
 ---
 
-Happy exploring! 🚀
+Happy exploring! 
 
 
 
